@@ -1,7 +1,11 @@
 def get_file_lines():
-    const filename = [""]
-    return filename
-
-def lines_printed_backwards(lines_list):
-    print 
+    filename = open("E.E.Cummings.txt", "r")
+    content_list = filename.readlines()
+    filename.close()
+    print(content_list)
     
+
+get_file_lines()
+
+
+
