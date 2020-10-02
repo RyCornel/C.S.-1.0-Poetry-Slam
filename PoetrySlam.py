@@ -31,5 +31,13 @@ def lines_printed_random():
 lines_printed_random()
 
 
+import random
 
+def lines_printed_custom():
+    filename = open("E.E.Cummings.txt", "r")
+    lines_list = filename.readlines()
+    return lines_list[::2]
+    filename.close()
+
+lines_printed_custom
 
